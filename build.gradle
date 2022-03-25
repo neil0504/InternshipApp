@@ -5,6 +5,7 @@ buildscript {
         maven {
             url "https://jitpack.io"
         }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
     }
     dependencies {
         classpath 'com.google.gms:google-services:4.3.10'

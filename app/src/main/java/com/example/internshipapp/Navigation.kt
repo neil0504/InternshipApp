@@ -1,5 +1,6 @@
 package com.example.internshipapp
 
+import android.content.Context
 import android.os.Bundle
 import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -17,6 +18,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 lateinit var longitude: String
 lateinit var latitide: String
 const val API_KEY = "AIzaSyBdiL-bvWktAVSnTXio-HRHZLIxlF4u3nM"
+lateinit var ccc: Context
 class Navigation : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var binding: ActivityNavigationBinding
@@ -27,6 +29,7 @@ class Navigation : AppCompatActivity(), OnMapReadyCallback {
         binding = ActivityNavigationBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        ccc = this
         val navView: BottomNavigationView = binding.navView
 
         val navController = findNavController(R.id.nav_host_fragment_activity_navigation)

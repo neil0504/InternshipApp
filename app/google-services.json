@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "305759078417",
+    "project_id": "gps-navigation-app-new",
+    "storage_bucket": "gps-navigation-app-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305759078417:android:9649c475ae8f93b41d09b0",
+        "android_client_info": {
+          "package_name": "com.example.internshipapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305759078417-1btq70gntjg2d1kahhdbkl5d082h3ap8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkLTXRKFYjVbaInLTN7U2tqu0jHfFSB5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305759078417-1btq70gntjg2d1kahhdbkl5d082h3ap8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

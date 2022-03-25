@@ -32,21 +32,21 @@
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
-            android:src="@color/search_icon"
-            tools:srcCompat="@drawable/location_icon_foreground" />
+            android:padding="5dp"
+            android:src="@drawable/search_image" />
 
         <EditText
             android:id="@+id/search"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_toEndOf="@id/magnify"
             android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/magnify"
+            android:autofillHints=""
             android:hint="Search Location"
             android:imeOptions="actionSearch"
             android:inputType="text"
             android:textColor="#000"
-            android:textSize="15sp"
-            android:autofillHints="" />
+            android:textSize="15sp" />
 
     </RelativeLayout>
 
