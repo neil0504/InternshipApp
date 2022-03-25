@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InternshipApp</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_Nav">Nav</string>
+    <string name="title_User">User</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
